@@ -1,0 +1,202 @@
+.Workshops {
+  padding-top: 140px;
+  padding-bottom: 140px;
+  background: #F5F5F5;
+}
+
+.Workshops .tops {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Workshops .tops .titlee {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 53px;
+  color: #1C1C33;
+}
+
+.Workshops .tops .line2 {
+  background: #57D9A6;
+  width: 150px;
+  height: 2px;
+  margin-top: 15px;
+}
+
+.Workshops .tops p {
+  width: 644px;
+  margin-top: 50px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  color: #4E4E65;
+}
+
+.Workshops .tops button {
+  padding: 14px 24px;
+  outline: none;
+  border: none;
+  display: block;
+  background: #57D9A6;
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #1C1C33;
+  margin-top: 45px;
+}
+
+.Workshops__cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 80px;
+}
+
+.Workshops__cards .card {
+  width: 380px;
+  padding: 21px;
+  background: #FFFFFF;
+}
+
+.Workshops__cards .card .title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #1C1C33;
+}
+
+.Workshops__cards .card .description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #4E4E65;
+  margin-top: 10px;
+}
+
+.Workshops__cards .card span {
+  display: block;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-top: 25px;
+  color: #57D9A6;
+}
+
+@media only screen and (max-width: 920px) {
+  .Workshops {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .Workshops .tops .titlee {
+    font-size: 35px;
+  }
+  .Workshops .tops p {
+    width: 500px;
+    font-size: 15px;
+    line-height: 25px;
+    margin-top: 30px;
+  }
+  .Workshops .tops button {
+    padding: 10px 15px;
+    font-size: 16px;
+  }
+  .Workshops__cards {
+    margin-top: 50px;
+  }
+  .Workshops__cards .card {
+    width: 215px;
+    padding: 15px;
+  }
+  .Workshops__cards .card .title {
+    font-size: 18px;
+  }
+  .Workshops__cards .card .description {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+@media only screen and (max-width: 776px) {
+  .Workshops .tops .titlee {
+    font-size: 35px;
+  }
+  .Workshops .tops p {
+    width: 450px;
+    font-size: 15px;
+    line-height: 25px;
+    margin-top: 30px;
+  }
+  .Workshops .tops button {
+    padding: 10px 15px;
+    font-size: 16px;
+  }
+  .Workshops__cards {
+    margin-top: 30px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .Workshops__cards .card {
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .Workshops {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .Workshops .tops .titlee {
+    font-size: 35px;
+  }
+  .Workshops .tops p {
+    width: 260px;
+    font-size: 15px;
+    line-height: 16px;
+    margin-top: 30px;
+  }
+  .Workshops .tops button {
+    padding: 8px 10px;
+    font-size: 10px;
+  }
+  .Workshops__cards {
+    margin-top: 10px;
+  }
+  .Workshops__cards .card {
+    width: 150px;
+    padding: 15px;
+  }
+  .Workshops__cards .card .title {
+    font-size: 14px;
+    line-height: 14px;
+  }
+  .Workshops__cards .card .description {
+    font-size: 11px;
+    line-height: 10px;
+  }
+  .Workshops__cards .card span {
+    font-size: 12px;
+  }
+}
+/*# sourceMappingURL=workshop.css.map */

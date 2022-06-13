@@ -1,0 +1,345 @@
+.Contact {
+  background: #1C1C33;
+}
+
+.Contact__top {
+  background: #57D9A6;
+  border-radius: 4px;
+  padding: 75px 0 90px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Contact__top .title {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 53px;
+  color: #1C1C33;
+}
+
+.Contact__top .input-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 55px;
+}
+
+.Contact__top .input-group ::-webkit-input-placeholder {
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 53px;
+  color: #1C1C33;
+}
+
+.Contact__top .input-group :-ms-input-placeholder {
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 53px;
+  color: #1C1C33;
+}
+
+.Contact__top .input-group ::-ms-input-placeholder {
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 53px;
+  color: #1C1C33;
+}
+
+.Contact__top .input-group ::placeholder {
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 53px;
+  color: #1C1C33;
+}
+
+.Contact__top .input-group input {
+  width: 400px;
+  height: 64px;
+  border: 1px solid #1C1C33;
+  border-radius: 4px;
+  margin-right: 15px;
+  background: inherit;
+  padding-left: 15px;
+}
+
+.Contact__top .input-group button {
+  background: #1C1C33;
+  border-radius: 4px;
+  width: 116px;
+  height: 64px;
+  border: none;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 53px;
+  text-align: center;
+  color: #57D9A6;
+}
+
+.Contact__footer {
+  margin-top: 150px;
+  padding-bottom: 140px;
+}
+
+.Contact__footer .group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 80px;
+}
+
+.Contact__footer .group ul {
+  list-style: none;
+}
+
+.Contact__footer .group ul li {
+  margin-bottom: 20px;
+}
+
+.Contact__footer .group ul a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #F6F6F8;
+  text-decoration: none;
+}
+
+.Contact__footer .group .others {
+  margin: 0 240px 0 160px;
+}
+
+.Contact__footer .group .social .title {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #F6F6F8;
+  text-decoration: none;
+}
+
+.Contact__footer .group .social .media {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Contact__footer .group .social .media .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  background: #F6F6F8;
+  margin-right: 15px;
+}
+
+.maker {
+  padding: 16px 80px;
+  background: #23233B;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.maker p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #B2B2BF;
+  margin-right: 30px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .Contact__top {
+    padding: 50px;
+  }
+  .Contact__top .title {
+    font-size: 30px;
+  }
+  .Contact__top .input-group {
+    margin-top: 40px;
+  }
+  .Contact__top .input-group input {
+    width: 300px;
+    height: 50px;
+  }
+  .Contact__top .input-group button {
+    width: 100px;
+    height: 50px;
+  }
+  .Contact__footer {
+    margin-top: 100px;
+  }
+  .Contact__footer .group {
+    margin-top: 60px;
+  }
+  .Contact__footer .group ul li {
+    margin-bottom: 10px;
+  }
+  .Contact__footer .group ul a {
+    font-size: 15px;
+  }
+  .Contact__footer .group .others {
+    margin: 0 130px 0 80px;
+  }
+  .Contact__footer .group .social .media .box {
+    margin-right: 10px;
+  }
+}
+
+@media only screen and (max-width: 776px) {
+  .Contact__top {
+    padding: 40px;
+  }
+  .Contact__top .title {
+    font-size: 25px;
+    line-height: 25px;
+  }
+  .Contact__top .input-group {
+    margin-top: 30px;
+  }
+  .Contact__top .input-group ::-webkit-input-placeholder {
+    font-size: 15px;
+  }
+  .Contact__top .input-group :-ms-input-placeholder {
+    font-size: 15px;
+  }
+  .Contact__top .input-group ::-ms-input-placeholder {
+    font-size: 15px;
+  }
+  .Contact__top .input-group ::placeholder {
+    font-size: 15px;
+  }
+  .Contact__top .input-group input {
+    width: 200px;
+    height: 40px;
+  }
+  .Contact__top .input-group button {
+    width: 70px;
+    height: 40px;
+    font-size: 15px;
+    line-height: 0;
+  }
+  .Contact__footer {
+    margin-top: 60px;
+    padding-bottom: 80px;
+  }
+  .Contact__footer .group {
+    margin-top: 30px;
+  }
+  .Contact__footer .group .nav {
+    display: none;
+  }
+  .Contact__footer .group ul li {
+    margin-bottom: 10px;
+  }
+  .Contact__footer .group ul a {
+    font-size: 15px;
+  }
+  .Contact__footer .group .others {
+    margin: 0;
+    margin-right: 80px;
+  }
+  .Contact__footer .group .social .media .box {
+    margin-right: 10px;
+  }
+  .maker {
+    padding: 10px 40px;
+  }
+  .maker p {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .Contact__top {
+    padding: 30px;
+  }
+  .Contact__top .title {
+    font-size: 16px;
+    line-height: 15px;
+  }
+  .Contact__top .input-group {
+    margin-top: 20px;
+  }
+  .Contact__top .input-group ::-webkit-input-placeholder {
+    font-size: 12px;
+  }
+  .Contact__top .input-group :-ms-input-placeholder {
+    font-size: 12px;
+  }
+  .Contact__top .input-group ::-ms-input-placeholder {
+    font-size: 12px;
+  }
+  .Contact__top .input-group ::placeholder {
+    font-size: 12px;
+  }
+  .Contact__top .input-group input {
+    width: 150px;
+    height: 30px;
+  }
+  .Contact__top .input-group button {
+    width: 50px;
+    height: 30px;
+    font-size: 12px;
+    line-height: 0;
+  }
+  .Contact__footer {
+    margin-top: 40px;
+    padding-bottom: 40px;
+  }
+  .Contact__footer .logo img {
+    width: 90px;
+  }
+  .Contact__footer .group {
+    margin-top: 20px;
+  }
+  .Contact__footer .group ul li {
+    margin-bottom: 2px;
+  }
+  .Contact__footer .group ul a {
+    font-size: 10px;
+    line-height: 10px;
+  }
+  .Contact__footer .group .others {
+    margin: 0;
+    margin-right: 40px;
+  }
+  .Contact__footer .group .social .title {
+    font-size: 15px;
+  }
+  .Contact__footer .group .social .media .box {
+    margin-right: 10px;
+    width: 22px;
+    height: 22px;
+  }
+  .Contact__footer .group .social .media .box img {
+    width: 50%;
+    margin-left: 5px;
+  }
+  .maker {
+    padding: 3px 20px;
+  }
+  .maker p {
+    font-size: 9px;
+  }
+}
+/*# sourceMappingURL=contact.css.map */

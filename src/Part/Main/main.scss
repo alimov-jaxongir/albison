@@ -1,0 +1,216 @@
+$secondColor:#F6F6F8;
+.Main{
+    background: #23233B;
+    padding-bottom: 130px;
+    
+}
+.Main__wrapper{
+ display: flex;
+ color: white;
+ &>.text{
+    margin-top: 140px;
+
+ 
+ &>.top{
+     p{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        letter-spacing: 1px;
+        color: $secondColor;
+     }
+     &>.line1{
+        background: #57D9A6;
+        width: 150px;
+        height: 2px;
+        margin-top: 5px;
+     }
+
+ }
+ .title{
+     font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 60px;
+    margin-top: 60px;
+    color: $secondColor;
+ }
+ .description{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    margin-top: 20px;
+    color: $secondColor;
+ }
+ span{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    color: #B2B2BF;
+    margin-top: 22px;
+    display: block;
+ }
+ button{
+     padding: 14px 24px;
+     outline: none;
+     border: none;
+    display: block;
+    background: #57D9A6;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #1C1C33;
+    margin-top: 45px;
+ }
+}
+.imga{
+    margin-right: -80px;
+    margin-top: 100px;
+}
+}
+@media only screen and(max-width:1200px){
+   .Main__wrapper{
+      &>.text{
+         margin-top: 110px;
+         &>.top{
+            p{
+            font-size: 13px;}
+            &>.line1{
+            width: 120px;
+         }
+         }
+         .title{
+            font-size: 28px;
+            line-height: 40px;
+            margin-top: 40px;
+         }
+         .description{
+            font-size: 15px;
+            line-height: 25px;
+         }
+         span{
+            font-size: 14px;
+            margin-top: 15px;
+         }
+         button{
+            padding: 12px 15px;
+            font-size: 15px;
+            margin-top: 30px;
+         }
+         
+      }
+      .imga{
+         margin-right: -50px;
+         img{
+            width: 500px;
+         }
+      }
+   }
+}
+@media only screen and(max-width:776px){
+.Main{
+   padding-bottom: 45px;
+}
+   .Main__wrapper{
+      &>.text{
+         margin-top: 70px;
+         &>.top{
+            p{
+            font-size: 11px;}
+            &>.line1{
+            width: 100px;
+         }
+         }
+         .title{
+            font-size: 22px;
+            line-height: 30px;
+            margin-top: 30px;
+         }
+         .description{
+            font-size: 12px;
+            line-height: 20px;
+         }
+         span{
+            font-size: 12px;
+            margin-top: 12px;
+         }
+         button{
+            padding: 10px 12px;
+            font-size: 13px;
+            margin-top: 30px;
+         }
+         
+      }
+      .imga{
+         margin-top: 60px;
+         margin-right: -30px;
+         img{
+            width: 350px;
+         }
+      }
+   }
+}
+@media only screen and(max-width:576px){
+   .Main{
+      padding-top: 5px;
+      padding-bottom: 45px;
+   }
+      .Main__wrapper{
+         display: block;
+         
+         padding-left:10%;
+         &>.text{
+            
+            
+            &>.top{
+               color: blue;
+               margin-top: 0;
+               p{
+               font-size: 15px;
+               color: blue;
+            }
+               &>.line1{
+               width: 100px;
+            }
+            }
+            .title{
+               font-size: 30px;
+               line-height: 30px;
+               margin-top: 30px;
+               color: blue;
+            }
+            .description{
+               font-size: 15px;
+               line-height: 20px;
+               color: blue;
+            }
+            span{
+               font-size: 12px;
+               margin-top: 12px;
+            }
+            button{
+               padding: 10px 12px;
+               font-size: 13px;
+               margin-top: 30px;
+            }
+            
+         }
+         .imga{
+            display: none;
+            margin-top: 10px;
+            margin-right: -30px;
+            img{
+               width: 350px;
+            }
+         }
+      }
+   }

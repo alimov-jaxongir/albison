@@ -1,0 +1,417 @@
+.Courses {
+  background: #23233B;
+}
+
+.Courses__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #F6F6F8;
+}
+
+.Courses__top .title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 53px;
+}
+
+.Courses__top .line1 {
+  background: #57D9A6;
+  width: 150px;
+  height: 2px;
+  margin-top: 15px;
+}
+
+.Courses__top p {
+  width: 644px;
+  margin-top: 50px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+}
+
+.Courses__top button {
+  padding: 14px 24px;
+  outline: none;
+  border: none;
+  display: block;
+  background: #57D9A6;
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #1C1C33;
+  margin-top: 45px;
+}
+
+.Courses__cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 80px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.Courses__cards-card {
+  background: white;
+  width: 380px;
+}
+
+.Courses__cards-card img {
+  width: 100%;
+  height: 195px;
+}
+
+.Courses__cards-card div {
+  padding: 20px;
+}
+
+.Courses__cards-card div .title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #1C1C33;
+  width: 280px;
+}
+
+.Courses__cards-card div .author {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27px;
+  color: #4E4E65;
+  margin-top: 8px;
+}
+
+.Courses__cards-card div .money {
+  display: inline-block;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 27px;
+  color: #B2B2BF;
+  margin-right: 8px;
+}
+
+.Courses__cards-card div .changeMoney {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 27px;
+  color: #1C1C33;
+}
+
+.Courses__cards-card div span {
+  display: block;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 1px;
+  color: #57D9A6;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.Courses .bottom {
+  margin-top: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Courses .bottom .right {
+  width: 50%;
+  height: 660px;
+}
+
+.Courses .bottom .right img {
+  width: 100%;
+  height: 100%;
+}
+
+.Courses .bottom .left {
+  width: 50%;
+  padding: 140px 50px 0 50px;
+}
+
+.Courses .bottom .left .title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: #F6F6F8;
+}
+
+.Courses .bottom .left .line1 {
+  background: #57D9A6;
+  width: 150px;
+  height: 2px;
+  margin-top: 15px;
+}
+
+.Courses .bottom .left .description {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  color: #F6F6F8;
+  margin-top: 50px;
+}
+
+.Courses .bottom .left button {
+  padding: 14px 24px;
+  outline: none;
+  border: none;
+  display: block;
+  background: #57D9A6;
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #1C1C33;
+  margin-top: 45px;
+}
+
+@media only screen and (max-width: 1120px) {
+  .Courses__top .title {
+    font-size: 40px;
+  }
+  .Courses__top p {
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 30px;
+  }
+  .Courses__top button {
+    padding: 12px 18px;
+  }
+  .Courses__cards-card {
+    width: 260px;
+  }
+  .Courses__cards-card div {
+    padding: 17px;
+  }
+  .Courses__cards-card div .title {
+    font-size: 20px;
+    line-height: 22px;
+  }
+  .Courses__cards-card div .money, .Courses__cards-card div .changeMoney {
+    font-size: 18px;
+  }
+  .Courses .bottom .left {
+    padding-top: 50px;
+  }
+}
+
+@media only screen and (max-width: 920px) {
+  .Courses__top .title {
+    font-size: 35px;
+  }
+  .Courses__top p {
+    width: 500px;
+    font-size: 15px;
+    line-height: 25px;
+    margin-top: 30px;
+  }
+  .Courses__top button {
+    padding: 10px 15px;
+    font-size: 16px;
+  }
+  .Courses__cards {
+    margin-top: 50px;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .Courses__cards-card {
+    width: 215px;
+  }
+  .Courses__cards-card div {
+    padding: 15px;
+  }
+  .Courses__cards-card div .title {
+    font-size: 18px;
+    line-height: 18px;
+    width: 200px;
+  }
+  .Courses__cards-card div .money, .Courses__cards-card div .changeMoney {
+    font-size: 15px;
+  }
+  .Courses .bottom {
+    margin-top: 100px;
+  }
+  .Courses .bottom .right {
+    height: 550px;
+  }
+  .Courses .bottom .left .title {
+    font-size: 33px;
+    line-height: 40px;
+  }
+  .Courses .bottom .left .description {
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 776px) {
+  .Courses__top .title {
+    font-size: 35px;
+  }
+  .Courses__top p {
+    width: 450px;
+    font-size: 15px;
+    line-height: 25px;
+    margin-top: 30px;
+  }
+  .Courses__top button {
+    padding: 10px 15px;
+    font-size: 16px;
+  }
+  .Courses__cards {
+    margin-top: 20px;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .Courses__cards-card {
+    margin-top: 30px;
+    width: 215px;
+  }
+  .Courses__cards-card div {
+    padding: 15px;
+  }
+  .Courses__cards-card div .title {
+    font-size: 18px;
+    line-height: 18px;
+    width: 200px;
+  }
+  .Courses__cards-card div .money, .Courses__cards-card div .changeMoney {
+    font-size: 15px;
+  }
+  .Courses .bottom {
+    margin-top: 80px;
+  }
+  .Courses .bottom .right {
+    height: 500px;
+  }
+  .Courses .bottom .left {
+    padding: 50px 0;
+    padding-left: 20px;
+  }
+  .Courses .bottom .left .title {
+    font-size: 25px;
+    line-height: 40px;
+  }
+  .Courses .bottom .left .description {
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 25px;
+  }
+  .Courses .bottom .left button {
+    font-size: 16px;
+    padding: 12px 18px;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .Courses__top .title {
+    font-size: 25px;
+  }
+  .Courses__top .line1 {
+    width: 130px;
+    margin-top: 0px;
+  }
+  .Courses__top p {
+    width: 300px;
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 30px;
+  }
+  .Courses__top button {
+    padding: 8px 10px;
+    font-size: 12px;
+    margin-top: 20px;
+  }
+  .Courses__cards {
+    margin-top: 20px;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .Courses__cards-card {
+    margin-top: 30px;
+    width: 150px;
+  }
+  .Courses__cards-card img {
+    height: 150px;
+  }
+  .Courses__cards-card div {
+    padding: 10px;
+  }
+  .Courses__cards-card div .title {
+    font-size: 15px;
+    line-height: 14px;
+    width: 140px;
+  }
+  .Courses__cards-card div .author {
+    font-size: 14px;
+    line-height: 10px;
+  }
+  .Courses__cards-card div .money, .Courses__cards-card div .changeMoney {
+    font-size: 12px;
+    line-height: 10px;
+  }
+  .Courses__cards-card div span {
+    font-size: 13px;
+    margin-top: 10px;
+    line-height: 10px;
+  }
+  .Courses .bottom {
+    margin-top: 60px;
+  }
+  .Courses .bottom .right {
+    height: 300px;
+  }
+  .Courses .bottom .left {
+    padding: 20px 0;
+    padding-left: 20px;
+  }
+  .Courses .bottom .left .title {
+    font-size: 16px;
+    line-height: 15px;
+  }
+  .Courses .bottom .left .line1 {
+    width: 120px;
+    margin-top: 6px;
+  }
+  .Courses .bottom .left .description {
+    font-size: 11px;
+    line-height: 15px;
+    margin-top: 25px;
+    margin-top: 10px;
+  }
+  .Courses .bottom .left button {
+    font-size: 14px;
+    padding: 5px 10px;
+    margin-top: 30px;
+  }
+}
+/*# sourceMappingURL=courses.css.map */

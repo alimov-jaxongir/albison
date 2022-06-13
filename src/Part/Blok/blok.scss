@@ -1,0 +1,136 @@
+
+
+.Blok{
+    background: #1C1C33;
+    display: flex;
+     
+    &__img{
+        
+        margin-top: 100px;
+        margin-left: -20px;
+        
+    }
+
+
+    &__right{
+        padding-left: -20px;
+        .title{
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 48px;
+            color: #F6F6F8;
+            margin-top: 260px;
+        }
+        .line1{
+            background: #57D9A6;
+            width: 150px;
+            height: 2px;
+            margin-top: 15px;
+        }
+        .description{
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 33px;
+            color: #F6F6F8;
+            margin-top: 50px;
+        }
+        button{
+            padding: 14px 24px;
+            outline: none;
+            border: none;
+            display: block;
+            background: #57D9A6;
+            border-radius: 4px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 27px;
+            text-align: center;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            color: #1C1C33;
+            margin-top: 45px; 
+                }
+    }
+}
+
+@media only screen and (max-width:1024px){
+    .Blok{
+        &__img{
+            margin-top: 80px;
+            img{
+                width: 450px;
+                
+            } }
+            &__right{
+                .title{
+                    font-size: 30px;
+                    margin-top: 150px;
+                }
+                .description{
+                    font-size: 19px;
+                }
+            }
+       
+    }
+}
+@media only screen and (max-width:776px){
+    .Blok{
+        &__img{
+            margin-top: 60px;
+            img{
+                width: 400px;
+                
+            } }
+            &__right{
+                .title{
+                    font-size: 25px;
+                    margin-top: 100px;
+                    line-height: 25px;
+                }
+                .description{
+                    font-size: 16px;
+                    margin-top: 30px;
+                }
+                button{
+                    padding: 10px 16px;
+                    font-size: 16px;
+                }
+            }
+       
+    }
+}
+@media only screen and (max-width:576px){
+    .Blok{
+        &__img{
+            margin-top: 40px;
+            margin-left: -10px;
+            img{
+                width: 230px;
+                
+            } }
+            &__right{
+                .title{
+                    font-size: 15px;
+                    margin-top: 50px;
+                    line-height: 20px;
+                }
+                .line1{
+                    width: 80px;
+                    margin-top: 5px;
+                }
+                .description{
+                    font-size: 11px;
+                    margin-top: 12px;
+                    line-height: 12px;
+                }
+                button{
+                    padding: 12px 14px;
+                    font-size: 10px;
+                    line-height: 10px;
+                    margin-top: 20px;
+                }
+            }
+       
+    }
+}

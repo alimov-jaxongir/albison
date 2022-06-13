@@ -1,0 +1,415 @@
+$secondColor:#F6F6F8;
+
+.Courses{
+    background: #23233B;
+    
+
+    &__top{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: $secondColor;
+        .title{
+            font-style: normal;
+            font-weight: 700;
+            font-size: 44px;
+            line-height: 53px;
+        }
+        .line1{
+            background: #57D9A6;
+        width: 150px;
+        height: 2px;
+        margin-top: 15px;
+        }
+        p{
+        width:644px ;
+        margin-top: 50px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 33px;
+        }
+        button{
+        padding: 14px 24px;
+        outline: none;
+        border: none;
+        display: block;
+        background: #57D9A6;
+        border-radius: 4px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        text-align: center;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #1C1C33;
+        margin-top: 45px;
+        }
+    }
+    &__cards{
+        display: flex;
+        margin-top: 80px;
+        justify-content: space-between;
+        &-card{
+            background: white;
+            width: 380px;
+            img{
+                width: 100%;
+                height: 195px;
+
+            }
+            div{
+                padding: 20px;
+                .title
+                {
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 24px;
+                    line-height: 29px;
+                     color: #1C1C33;
+                    width: 280px;
+                }
+                .author{
+                    font-weight: 400;
+                    font-size: 17px;
+                    line-height: 27px;
+                    color: #4E4E65;
+                    margin-top: 8px;
+                }
+                .money{
+                    display: inline-block;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 22px;
+                    line-height: 27px;
+                    color: #B2B2BF;
+                    margin-right: 8px;
+                }
+                .changeMoney{
+                    display: inline-block;
+                    font-weight: 400;
+                    font-size: 22px;
+                    line-height: 27px;
+                    color: #1C1C33;
+                    
+                }
+                span{
+                    display: block;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 21px;
+                    letter-spacing: 1px;
+                    color: #57D9A6;
+                    margin-top: 15px;
+                    margin-bottom: 10px;
+                    
+                }
+            }
+
+        }
+    }
+    .bottom{
+        margin-top:150px;
+        display: flex;
+        .right{
+            width: 50%;
+            height: 660px;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .left{
+            width: 50%;
+            padding: 140px 50px 0 50px;
+            .title{
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 48px;
+                color: $secondColor;
+                
+            }
+            .line1{
+                background: #57D9A6;
+                width: 150px;
+                height: 2px;
+                margin-top: 15px;
+            }
+            .description{
+                font-weight: 400;
+                font-size: 22px;
+                line-height: 33px;
+                color: $secondColor;
+                margin-top: 50px;
+            }
+            button{
+                padding: 14px 24px;
+        outline: none;
+        border: none;
+        display: block;
+        background: #57D9A6;
+        border-radius: 4px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        text-align: center;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #1C1C33;
+        margin-top: 45px; 
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:1120px){
+   .Courses{
+       &__top{
+           .title{
+               font-size: 40px;
+            
+           }
+           p{
+               font-size: 18px;
+               line-height: 25px;
+               margin-top: 30px;
+           }
+           button{
+               padding: 12px 18px;
+           }
+       }
+       &__cards{
+           &-card{
+               width: 260px;
+               div{
+                   padding: 17px;
+                   .title{
+                       font-size: 20px;
+                       line-height: 22px;
+                   }
+                   .money ,.changeMoney{
+                       font-size: 18px;
+                       
+                   }
+               }
+           }
+       }
+   
+   .bottom{
+       .left{
+           padding-top: 50px;
+       }
+   }
+}}
+@media only screen and (max-width:920px){
+    .Courses{
+        &__top{
+            .title{
+                font-size: 35px;
+             
+            }
+            p{  width: 500px;
+                font-size: 15px;
+                line-height: 25px;
+                margin-top: 30px;
+            }
+            button{
+                padding: 10px 15px;
+                font-size: 16px;
+            }
+        }
+        &__cards{
+            margin-top: 50px;
+            justify-content: space-around;
+            &-card{
+                width: 215px;
+                div{
+                    padding: 15px;
+                    .title{
+                        font-size: 18px;
+                        line-height: 18px;
+                        width: 200px;
+                    }
+                    .money ,.changeMoney{
+                        font-size: 15px;
+                        
+                    }
+                }
+            }
+        }
+        .bottom{
+            margin-top: 100px;
+            .right{
+                height: 550px;
+            }
+            .left{
+                .title{
+                    font-size: 33px;
+                    line-height: 40px;
+                }
+                .description{
+                    font-size: 18px;
+                    line-height: 25px;
+                    margin-top: 30px;
+                }
+            }
+        }
+    }
+ }
+ @media only screen and (max-width:776px){
+    .Courses{
+        &__top{
+            .title{
+                font-size: 35px;
+             
+            }
+            p{  width: 450px;
+                font-size: 15px;
+                line-height: 25px;
+                margin-top: 30px;
+            }
+            button{
+                padding: 10px 15px;
+                font-size: 16px;
+            }
+        }
+    
+        &__cards{
+            margin-top: 20px;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            
+            &-card{
+                margin-top: 30px;
+                width: 215px;
+                div{
+                    padding: 15px;
+                    .title{
+                        font-size: 18px;
+                        line-height: 18px;
+                        width: 200px;
+                    }
+                    .money ,.changeMoney{
+                        font-size: 15px;
+                        
+                    }
+                }
+            }
+        }
+        .bottom{
+            margin-top: 80px;
+            .right{
+                height: 500px;
+            }
+            .left{
+                padding: 50px 0;
+                padding-left: 20px;
+                .title{
+                    font-size: 25px;
+                    line-height: 40px;
+                }
+                .description{
+                    font-size: 16px;
+                    line-height: 22px;
+                    margin-top: 25px;
+                }
+                button{
+                    font-size: 16px;
+                    padding: 12px 18px;
+                }
+            }
+        }
+    }
+ }
+ @media only screen and (max-width:520px){
+    .Courses{
+        &__top{
+            .title{
+                font-size: 25px;
+             
+            }
+            .line1{
+                width: 130px;
+                margin-top: 0px;
+            }
+            p{  width: 300px;
+                font-size: 12px;
+                line-height: 18px;
+                margin-top: 30px;
+            }
+            button{
+                padding: 8px 10px;
+                font-size: 12px;
+                margin-top: 20px;
+            }
+        }
+    
+        &__cards{
+            margin-top: 20px;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            
+            &-card{
+                margin-top: 30px;
+                width: 150px;
+                img{
+                    height: 150px;
+                }
+                div{
+                    padding: 10px;
+                    .title{
+                        font-size: 15px;
+                        line-height: 14px;
+                        width: 140px;
+                    }
+                    .author{
+                        font-size: 14px;
+                        line-height: 10px;
+                    }
+                    .money ,.changeMoney{
+                        font-size: 12px;
+                        line-height: 10px;
+                        
+                    }
+                    span{
+                        font-size: 13px;
+                        margin-top: 10px;
+                        line-height: 10px;
+                    }
+                }
+            }
+        }
+        .bottom{
+            margin-top: 60px;
+            .right{
+                height: 300px;
+            }
+            .left{
+                padding: 20px 0;
+                padding-left: 20px;
+                .title{
+                    font-size: 16px;
+                    line-height: 15px;
+                    
+                }
+                .line1{
+                    width: 120px;
+                    margin-top: 6px;
+                }
+                .description{
+                    font-size: 11px;
+                    line-height: 15px;
+                    margin-top: 25px;
+                    margin-top: 10px;
+                }
+                button{
+                    font-size: 14px;
+                    padding: 5px 10px;
+                    margin-top: 30px;
+                }
+            }
+        }
+    }
+ }
