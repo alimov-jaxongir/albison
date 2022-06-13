@@ -311,9 +311,8 @@
   }
   .Contact__footer .group {
     margin-top: 20px;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
   .Contact__footer .group ul li {
     margin-bottom: 2px;
