@@ -6,6 +6,9 @@
   box-sizing: border-box;
   font-family: 'Source Sans Pro', sans-serif;
 }
+body{
+  scroll-behavior: smooth;
+}
     .container{
       padding-left:  80px;
       padding-right:80px ;
@@ -19,6 +22,7 @@
      padding: 30px 80px;
      justify-content: space-between;
      align-items: center;
+     transition: all 500s ease;
    }
    
    

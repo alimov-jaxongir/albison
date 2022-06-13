@@ -311,6 +311,9 @@
   }
   .Contact__footer .group {
     margin-top: 20px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   .Contact__footer .group ul li {
     margin-bottom: 2px;
@@ -321,7 +324,6 @@
   }
   .Contact__footer .group .others {
     margin: 0;
-    margin-right: 40px;
   }
   .Contact__footer .group .social .title {
     font-size: 15px;

@@ -1,6 +1,8 @@
 import React from 'react'
 import './courses.css'
 import course1 from '../../assets/course1.png'
+import course2 from '../../assets/course2.png'
+import course3 from '../../assets/course3.png'
 import bottom from '../../assets/bottom.png'
 function Courses() {
   return (
@@ -25,7 +27,7 @@ function Courses() {
              <span>Learn More</span></div>
          </div>
          <div className="Courses__cards-card">
-             <img src={course1} alt="" />
+             <img src={course2} alt="" />
              <div>
              <p className="title">How to Increase Your Engagement on Instagram</p>
             
@@ -35,7 +37,7 @@ function Courses() {
              <span>Learn More</span></div>
          </div>
          <div className="Courses__cards-card">
-             <img src={course1} alt="" />
+             <img src={course3} alt="" />
              <div>
              <p className="title">How to Increase Your Engagement on Instagram</p>
             

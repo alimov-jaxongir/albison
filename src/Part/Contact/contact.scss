@@ -263,6 +263,7 @@
             &__footer{
                 margin-top: 40px;
                 padding-bottom: 40px;
+
                 .logo{
                     img{
                         width: 90px;
@@ -270,7 +271,7 @@
                 }
                 .group{
                     margin-top: 20px;
-                    
+                    justify-content: space-between;
                     ul{
                         li{
                             margin-bottom: 2px;
@@ -283,7 +284,7 @@
                     }
                     .others{
                         margin: 0;
-                        margin-right:40px;
+                        
                         
                     }
                     .social{.title{

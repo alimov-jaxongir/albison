@@ -2,6 +2,8 @@ import React from 'react'
 import './contact.css'
 import tik from '../../assets/tik.svg'
 import logo from '../../assets/logo.svg'
+import ins from '../../assets/ins.svg'
+import yan from '../../assets/yan.svg'
 function Contact() {
   return (<>
     <div className='Contact container'>
@@ -39,19 +41,19 @@ function Contact() {
              <div className="title">Follow skillz</div>
              <div className="media">
                  <div className="box">
-                   <a href="">  <img src={tik} alt="tik tok" /></a>
+                   <a href="tik">  <img src={tik} alt="tik tok" /></a>
                  </div>
                  <div className="box">
-                   <a href="">  <img src={tik} alt="tik tok" /></a>
+                   <a href="jc">  <img src={ins} alt="tik tok" /></a>
                  </div>
                  <div className="box">
-                   <a href="">  <img src={tik} alt="tik tok" /></a>
+                   <a href="cc">  <img src={yan} alt="tik tok" /></a>
                  </div>
                  <div className="box">
-                   <a href="">  <img src={tik} alt="tik tok" /></a>
+                   <a href="cc">  <img src={tik} alt="tik tok" /></a>
                  </div>
                  <div className="box">
-                   <a href="">  <img src={tik} alt="tik tok" /></a>
+                   <a href="cc">  <img src={ins} alt="tik tok" /></a>
                  </div>
              </div>
          </div>

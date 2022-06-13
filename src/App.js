@@ -1,5 +1,6 @@
 import React,{useState} from 'react';
 import './App.css';
+import { Link } from 'react-router-dom';
 import {FaBars} from 'react-icons/fa'
 import {FaTimes} from 'react-icons/fa'
 import Main from './Part/Main/Main';
@@ -20,13 +21,13 @@ function App() {
           <img src={logo} alt="logo" />
         </div>
         <nav className={isMobile?"navbar__mobile":"navbar__list"}>
-    =
+    
          <ul >
-           <li ><a href="courses">Courses</a></li>
-           <li ><a href="workshops">Free Workshops</a></li>
-           <li ><a href="blog">Blog</a></li>
-           <li ><a href="about">About</a></li>
-           <li ><a href="contact">Contact</a></li>
+           <li ><a href="#courses">Courses</a></li>
+           <li ><a href="#workshops">Free Workshops</a></li>
+           <li ><a href="#blog">Blog</a></li>
+           <li ><a href="#about">About</a></li>
+           <li ><a href="#contact">Contact</a></li>
          </ul>
        </nav> 
        <img src={korzinka} alt="" className="korzink" />
