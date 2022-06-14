@@ -23,7 +23,7 @@ function App() {
         </div>
         <nav className={isMobile?"navbar__mobile":"navbar__list"}>
     
-         <ul >
+         <ul onClick={()=>setIsMobile(false)} >
            <li ><a href="#courses">Courses</a></li>
            <li ><a href="#workshops">Free Workshops</a></li>
            <li ><a href="#blog">Blog</a></li>

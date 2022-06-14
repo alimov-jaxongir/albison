@@ -41,7 +41,13 @@ body{
       margin-right: 40px;
       text-decoration: none;
     }
-
+    .navbar__list a:hover{
+      border: 1px solid rgb(19, 18, 18);
+      background: inherit;
+      padding: 6px 12px;
+      border-radius: 8px;
+      transition: all .1s ease-in;
+    }
 
 
 
@@ -116,6 +122,8 @@ body{
         line-height: 50px;
         text-decoration: none;
       }
+      
+
     }
     @media only screen and (max-width:576px){
       .container{

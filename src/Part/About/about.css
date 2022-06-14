@@ -58,6 +58,13 @@
   margin-top: 45px;
 }
 
+.About__top button:hover {
+  background: #07bb2e;
+  -webkit-box-shadow: rgba(221, 221, 228, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(221, 221, 228, 0.2) 0px 7px 29px 0px;
+  font-weight: 600;
+}
+
 .About__cards {
   margin-top: 80px;
   display: -webkit-box;

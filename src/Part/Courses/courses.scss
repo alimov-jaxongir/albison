@@ -45,6 +45,11 @@ $secondColor:#F6F6F8;
         text-transform: uppercase;
         color: #1C1C33;
         margin-top: 45px;
+        &:hover{
+            background: rgb(7, 187, 46);
+            box-shadow: rgba(221, 221, 228, 0.2) 0px 7px 29px 0px;  
+            font-weight: 600;
+         }
         }
     }
     &__cards{
@@ -158,7 +163,12 @@ $secondColor:#F6F6F8;
         letter-spacing: 1px;
         text-transform: uppercase;
         color: #1C1C33;
-        margin-top: 45px; 
+        margin-top: 45px;  &:hover{
+            background: rgb(7, 187, 46);
+            box-shadow: rgba(221, 221, 228, 0.2) 0px 7px 29px 0px;  
+            font-weight: 600;
+         }
+
             }
         }
     }
@@ -332,7 +342,7 @@ $secondColor:#F6F6F8;
             }
             .line1{
                 width: 130px;
-                margin-top: 0px;
+                margin-top: 0;
             }
             p{  width: 300px;
                 font-size: 12px;

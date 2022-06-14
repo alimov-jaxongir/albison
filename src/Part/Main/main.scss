@@ -70,6 +70,13 @@ $secondColor:#F6F6F8;
     text-transform: uppercase;
     color: #1C1C33;
     margin-top: 45px;
+    &:hover{
+      background: rgb(7, 187, 46);
+      box-shadow: rgba(221, 221, 228, 0.2) 0px 7px 29px 0px;  
+      font-weight: 600;
+      
+   }
+      
  }
 }
 .imga{
@@ -162,7 +169,7 @@ $secondColor:#F6F6F8;
 @media only screen and(max-width:576px){
    .Main{
       padding-top: 5px;
-      padding-bottom: 45px;
+      padding-bottom: 30px;
    }
       .Main__wrapper{
          display: block;

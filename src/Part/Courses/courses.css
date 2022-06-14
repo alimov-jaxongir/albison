@@ -57,6 +57,13 @@
   margin-top: 45px;
 }
 
+.Courses__top button:hover {
+  background: #07bb2e;
+  -webkit-box-shadow: rgba(221, 221, 228, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(221, 221, 228, 0.2) 0px 7px 29px 0px;
+  font-weight: 600;
+}
+
 .Courses__cards {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -187,6 +194,13 @@
   text-transform: uppercase;
   color: #1C1C33;
   margin-top: 45px;
+}
+
+.Courses .bottom .left button:hover {
+  background: #07bb2e;
+  -webkit-box-shadow: rgba(221, 221, 228, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(221, 221, 228, 0.2) 0px 7px 29px 0px;
+  font-weight: 600;
 }
 
 @media only screen and (max-width: 1120px) {
@@ -336,7 +350,7 @@
   }
   .Courses__top .line1 {
     width: 130px;
-    margin-top: 0px;
+    margin-top: 0;
   }
   .Courses__top p {
     width: 300px;

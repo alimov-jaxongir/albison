@@ -55,6 +55,13 @@
   margin-top: 45px;
 }
 
+.Blok__right button:hover {
+  background: #07bb2e;
+  -webkit-box-shadow: rgba(221, 221, 228, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(221, 221, 228, 0.2) 0px 7px 29px 0px;
+  font-weight: 600;
+}
+
 @media only screen and (max-width: 1024px) {
   .Blok__img {
     margin-top: 80px;

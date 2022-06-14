@@ -60,6 +60,13 @@
   margin-top: 45px;
 }
 
+.Workshops .tops button:hover {
+  background: #07bb2e;
+  -webkit-box-shadow: rgba(221, 221, 228, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(221, 221, 228, 0.2) 0px 7px 29px 0px;
+  font-weight: 600;
+}
+
 .Workshops__cards {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -168,11 +175,15 @@
     padding-bottom: 50px;
   }
   .Workshops .tops .titlee {
-    font-size: 35px;
+    font-size: 23px;
+  }
+  .Workshops .tops .line2 {
+    width: 130px;
+    margin-top: 0;
   }
   .Workshops .tops p {
     width: 260px;
-    font-size: 15px;
+    font-size: 12px;
     line-height: 16px;
     margin-top: 30px;
   }
