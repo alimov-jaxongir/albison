@@ -8,7 +8,7 @@ $secondColor:#F6F6F8;
  display: flex;
  color: white;
  &>.text{
-    margin-top: 140px;
+    margin-top: 200px;
 
  
  &>.top{
@@ -74,7 +74,7 @@ $secondColor:#F6F6F8;
 }
 .imga{
     margin-right: -80px;
-    margin-top: 100px;
+    margin-top: 160px;
 }
 }
 @media only screen and(max-width:1200px){
@@ -169,7 +169,7 @@ $secondColor:#F6F6F8;
          
          padding-left:10%;
          &>.text{
-            
+            margin-top: 100px;
             
             &>.top{
                color: blue;
@@ -206,10 +206,9 @@ $secondColor:#F6F6F8;
          }
          .imga{
             display: none;
-            margin-top: 10px;
-            margin-right: -30px;
+           
             img{
-               width: 350px;
+              
             }
          }
       }

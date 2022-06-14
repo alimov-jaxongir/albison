@@ -5,7 +5,7 @@ function Workshop() {
     <div className='Workshops container'>
         <div className="tops">
         <div className="titlee">
-        Recent Articles
+        Upcoming Free Workshops
             </div>
             <div className="line2"></div>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>

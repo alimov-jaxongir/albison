@@ -20,11 +20,9 @@ body{
      width: 100%;
      display: flex;
      background: #1C1C33;
-     padding: 30px 80px;
+     padding: 20px 80px;
      justify-content: space-between;
      align-items: center;
-     transition: all 500s ease;
-    top: 0; 
     position: fixed;
      
    }
@@ -66,7 +64,7 @@ body{
       }
       header{
         flex-direction: column;
-        padding: 10px 20px;
+        padding: 40px 20px;
         position: fixed;
       }
       .navbar__logo{

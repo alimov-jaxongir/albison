@@ -18,7 +18,8 @@ function App() {
     <div className="App">
       <header className='container '>
        <div className="navbar__logo">
-          <img src={logo} alt="logo" />
+        <a href="/">
+          <img src={logo} alt="logo" /></a>
         </div>
         <nav className={isMobile?"navbar__mobile":"navbar__list"}>
     
