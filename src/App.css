@@ -70,7 +70,7 @@ body{
       }
       header{
         flex-direction: column;
-        padding: 37px 20px;
+        padding: 30px 20px;
         position: fixed;
       }
       .navbar__logo{
@@ -131,8 +131,14 @@ body{
         padding-right: 15px;
       }
 
-      .navbar__logo >img{
+      .navbar__logo a>img{
         width: 100px;
-      }
       
+      }
+      .mobile-icon>svg{
+        color:white;
+        width: 20px;
+        height: 20px;
+        
+       }
     }
