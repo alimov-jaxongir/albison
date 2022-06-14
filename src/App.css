@@ -70,7 +70,7 @@ body{
       }
       header{
         flex-direction: column;
-        padding: 30px 20px;
+        padding: 37px 20px;
         position: fixed;
       }
       .navbar__logo{
@@ -97,7 +97,7 @@ body{
         display: flex;
         border: none;
         background: inherit;
-        top: 20px;
+        top: 23px;
         right:20px;
       }
       .mobile-icon>svg{
@@ -118,7 +118,7 @@ body{
       
       .navbar__mobile a{
         color: white;
-        font-size: 25px;
+        font-size: 21px;
         line-height: 50px;
         text-decoration: none;
       }
@@ -130,6 +130,9 @@ body{
         padding-left: 15px;
         padding-right: 15px;
       }
+      header{
+        padding: 30px 20px;
+      }
 
       .navbar__logo a>img{
         width: 100px;
@@ -137,8 +140,8 @@ body{
       }
       .mobile-icon>svg{
         color:white;
-        width: 20px;
-        height: 20px;
+        width: 18px;
+        height: 18px;
         
        }
     }
