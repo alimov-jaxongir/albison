@@ -64,7 +64,7 @@ body{
       }
       header{
         flex-direction: column;
-        padding: 40px 20px;
+        padding: 37px 20px;
         position: fixed;
       }
       .navbar__logo{

@@ -168,15 +168,13 @@
     padding-left: 10%;
   }
   .Main__wrapper > .text {
-    margin-top: 100px;
+    margin-top: 110px;
   }
   .Main__wrapper > .text > .top {
-    color: blue;
     margin-top: 0;
   }
   .Main__wrapper > .text > .top p {
     font-size: 15px;
-    color: blue;
   }
   .Main__wrapper > .text > .top > .line1 {
     width: 100px;
@@ -185,20 +183,18 @@
     font-size: 30px;
     line-height: 30px;
     margin-top: 30px;
-    color: blue;
   }
   .Main__wrapper > .text .description {
     font-size: 15px;
     line-height: 20px;
-    color: blue;
   }
   .Main__wrapper > .text span {
     font-size: 12px;
     margin-top: 12px;
   }
   .Main__wrapper > .text button {
-    padding: 10px 12px;
-    font-size: 13px;
+    padding: 7px 12px;
+    font-size: 12px;
     margin-top: 30px;
   }
   .Main__wrapper .imga {

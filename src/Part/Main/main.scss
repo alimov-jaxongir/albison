@@ -169,14 +169,14 @@ $secondColor:#F6F6F8;
          
          padding-left:10%;
          &>.text{
-            margin-top: 100px;
+            margin-top: 110px;
             
             &>.top{
-               color: blue;
+              
                margin-top: 0;
                p{
                font-size: 15px;
-               color: blue;
+               
             }
                &>.line1{
                width: 100px;
@@ -186,20 +186,20 @@ $secondColor:#F6F6F8;
                font-size: 30px;
                line-height: 30px;
                margin-top: 30px;
-               color: blue;
+               
             }
             .description{
                font-size: 15px;
                line-height: 20px;
-               color: blue;
+               
             }
             span{
                font-size: 12px;
                margin-top: 12px;
             }
             button{
-               padding: 10px 12px;
-               font-size: 13px;
+               padding: 7px 12px;
+               font-size: 12px;
                margin-top: 30px;
             }
             
@@ -207,9 +207,7 @@ $secondColor:#F6F6F8;
          .imga{
             display: none;
            
-            img{
-              
-            }
+           
          }
       }
    }
